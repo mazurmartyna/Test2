@@ -10,6 +10,115 @@ h1 {
 }
 
 header {
+    height: 50px;
+    background-color: hsl(214, 23%, 56%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+a {
+    color: hsl(211, 53%, 11%);
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+a:hover {
+    background-color: hsl(239, 97%, 63%);
+    border-radius: 2px;
+    cursor: pointer;
+    color: hsl(75, 6%, 87%);
+}
+
+
+/* żeby strona była podzielona na 3 kolumny */
+.col-1 {
+    width: 50%;
+    float: left
+}
+
+.col-2 {
+    width: 50%;
+    float: left
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+p {
+    color: green;
+    text-align: justify;
+    width: 100%;
+    font-style: italic;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 1cm;
+}
+
+
+section {
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+.team ol {
+    padding: 10px;
+    border: 2px solid black;
+    list-style-type: upper-alpha;
+}
+
+.team li {
+    margin: 10px 0;
+}
+
+.team .student-id {
+    font-size: 0.9em;
+    color: rgb(212, 105, 105);
+}
+
+
+.links ol {
+    padding: 10px;
+    list-style-type: decimal;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #2aff35;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+header {
     margin-top: 50px;
 }
 
