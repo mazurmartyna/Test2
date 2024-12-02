@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Microsoft Word",
+        "version": "2021",
+        "type": "Word Processor",
+        "license": "Commercial"
+    },
+    {
+        "name": "LibreOffice",
+        "version": "7.4",
+        "type": "Office Suite",
+        "license": "Open Source"
+    },
+    {
+        "name": "Photoshop",
+        "version": "2023",
+        "type": "Image Editing",
+        "license": "Subscription"
+    }
+]
