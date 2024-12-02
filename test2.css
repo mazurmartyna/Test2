@@ -8,3 +8,53 @@ body {
 h1 {
     text-align: center;
 }
+
+header {
+    margin-top: 50px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+thead {
+    background-color: black;
+}
+
+th {
+    color: white;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    margin: 5px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
