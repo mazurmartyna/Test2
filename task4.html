@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz - Computer Software</title>
+    <link rel="stylesheet" href="test2.css">
+</head>
+<body>
+    <header>
+        <h1>Formularz Oprogramowania</h1>
+    </header>
+
+    <section class="form-container">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Nazwa oprogramowania:</label>
+                <input type="text" id="name" name="name" placeholder="Wprowadź nazwę oprogramowania" required>
+            </div>
+
+            <div class="form-group">
+                <label for="version">Wersja oprogramowania:</label>
+                <input type="text" id="version" name="version" placeholder="Wprowadź wersję oprogramowania" required>
+            </div>
+
+            <div class="form-group">
+                <label for="type">Typ oprogramowania:</label>
+                <select id="type" name="type">
+                    <option value="Word Processor">Word Processor</option>
+                    <option value="Office Suite">Office Suite</option>
+                    <option value="Image Editing">Image Editing</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="license">Licencja:</label>
+                <select id="license" name="license">
+                    <option value="Commercial">Commercial</option>
+                    <option value="Open Source">Open Source</option>
+                    <option value="Subscription">Subscription</option>
+                </select>
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit" class="btn-save">Zapisz</button>
+                <button type="reset" class="btn-cancel">Anuluj</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
