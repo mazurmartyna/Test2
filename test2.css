@@ -8,3 +8,56 @@ body {
 h1 {
     text-align: center;
 }
+
+header h1 {
+    text-align: center;
+    margin-top: 1cm;
+}
+
+
+section {
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+.team ol {
+    padding: 10px;
+    border: 2px solid black;
+    list-style-type: upper-alpha;
+}
+
+.team li {
+    margin: 10px 0;
+}
+
+.team .student-id {
+    font-size: 0.9em;
+    color: rgb(212, 105, 105);
+}
+
+
+.links ol {
+    padding: 10px;
+    list-style-type: decimal;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #2aff35;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
