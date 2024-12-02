@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <software name="Microsoft Word">
+        <version>2021</version>
+        <type>Word Processor</type>
+        <license>Commercial</license>
+        <platform>Windows</platform>
+    </software>
+    <software name="LibreOffice">
+        <version>7.4</version>
+        <type>Office Suite</type>
+        <license>Open Source</license>
+        <platform>Cross-platform</platform>
+    </software>
+    <software name="Photoshop">
+        <version>2023</version>
+        <type>Image Editing</type>
+        <license>Subscription</license>
+        <platform>Windows</platform>
+    </software>
+</data>
